@@ -48,7 +48,6 @@ var drawGraphBar = function(dataBar){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -102,7 +101,6 @@ var drawGraphBar2 = function(dataBar2){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -155,7 +153,6 @@ var drawGraphBar3 = function(dataBar3){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -208,7 +205,6 @@ var drawGraphBar4 = function(dataBar4){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -262,7 +258,6 @@ var drawGraphBar5 = function(dataBar5){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -315,7 +310,6 @@ var drawGraphBar6 = function(dataBar6){
     type: 'bar', // グラフの種類（棒グラフを指定）
     data: { labels: label, datasets: [data1, data2]},
     options: option,
-    plugins: [dataLabelPlugin]
   }
   var myChart = new Chart(ctx, config);
 };
@@ -352,3 +346,4 @@ window.onload=function () {
                 [157 ,127 ,167 ,103 ,75 ,87 ,123 ,119 ,63 ,116 ,169 ,173]]
     drawGraphBar6(dataBar6);
 };
+
